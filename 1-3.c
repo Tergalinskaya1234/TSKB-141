@@ -13,8 +13,8 @@ double potential_energy(const double x, const double k);
  */
 int main()
 {
-    double x;
-    double y;
+    double x=0;
+    double k=0;
     printf("Введение x и k: ");
     scanf("%lf %lf", &x, &k);
     printf("E=%lf\n", potential_energy(x, k));
