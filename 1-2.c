@@ -20,8 +20,8 @@ double geometric_mean(const double x, const double y);
  */
 int main()
 {
-    double x;
-    double y;
+    double x=0;
+    double y=0;
     printf("Введение двух чисел: ");
     scanf("%lf %lf", &x, &y);
     printf("arithmetic_mean=%lf\n", arithmetic_mean(x, y));
