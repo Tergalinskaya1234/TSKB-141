@@ -29,6 +29,10 @@ double getDouble();
  *@return side считанное значение стороны куба
  */
 void checkside(const double side);
+/**
+* @brief Точка входа в программу
+* @return 0, программа выполнена корректно, иначе не 0
+*/
 int main()
 {
     printf("Enter side: ");
